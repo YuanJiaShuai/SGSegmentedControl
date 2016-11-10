@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18426A1C1DD421BA0091C9F2 /* FiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18426A1B1DD421BA0091C9F2 /* FiveViewController.swift */; };
+		18426A1E1DD421C00091C9F2 /* SixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18426A1D1DD421C00091C9F2 /* SixViewController.swift */; };
+		18426A201DD421CB0091C9F2 /* SevenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18426A1F1DD421CB0091C9F2 /* SevenViewController.swift */; };
+		18426A221DD424B40091C9F2 /* tip1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18426A211DD424B40091C9F2 /* tip1.gif */; };
 		184C37421DD2AFA600EC2F6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C37411DD2AFA600EC2F6D /* AppDelegate.swift */; };
 		184C37441DD2AFA600EC2F6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C37431DD2AFA600EC2F6D /* ViewController.swift */; };
 		184C37471DD2AFA600EC2F6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184C37451DD2AFA600EC2F6D /* Main.storyboard */; };
@@ -14,6 +18,13 @@
 		184C374C1DD2AFA600EC2F6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184C374A1DD2AFA600EC2F6D /* LaunchScreen.storyboard */; };
 		184C37571DD2AFA600EC2F6D /* SGSegmentedControlDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C37561DD2AFA600EC2F6D /* SGSegmentedControlDemoTests.swift */; };
 		184C37621DD2AFA600EC2F6D /* SGSegmentedControlDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C37611DD2AFA600EC2F6D /* SGSegmentedControlDemoUITests.swift */; };
+		184C37711DD2AFE300EC2F6D /* SGImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C37701DD2AFE300EC2F6D /* SGImageButton.swift */; };
+		184C37731DD2AFF000EC2F6D /* UIView+SGExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C37721DD2AFF000EC2F6D /* UIView+SGExtension.swift */; };
+		184C37751DD2B01000EC2F6D /* SGSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C37741DD2B01000EC2F6D /* SGSegmentedControl.swift */; };
+		184C37771DD2CC5C00EC2F6D /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C37761DD2CC5C00EC2F6D /* OneViewController.swift */; };
+		184C37791DD2CC6300EC2F6D /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C37781DD2CC6300EC2F6D /* TwoViewController.swift */; };
+		184C377B1DD2CC6900EC2F6D /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C377A1DD2CC6900EC2F6D /* ThreeViewController.swift */; };
+		184C377D1DD2CC6F00EC2F6D /* FourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C377C1DD2CC6F00EC2F6D /* FourViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18426A1B1DD421BA0091C9F2 /* FiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FiveViewController.swift; sourceTree = "<group>"; };
+		18426A1D1DD421C00091C9F2 /* SixViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SixViewController.swift; sourceTree = "<group>"; };
+		18426A1F1DD421CB0091C9F2 /* SevenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SevenViewController.swift; sourceTree = "<group>"; };
+		18426A211DD424B40091C9F2 /* tip1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tip1.gif; sourceTree = "<group>"; };
 		184C373E1DD2AFA600EC2F6D /* SGSegmentedControlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGSegmentedControlDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		184C37411DD2AFA600EC2F6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		184C37431DD2AFA600EC2F6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,13 @@
 		184C375D1DD2AFA600EC2F6D /* SGSegmentedControlDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGSegmentedControlDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		184C37611DD2AFA600EC2F6D /* SGSegmentedControlDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGSegmentedControlDemoUITests.swift; sourceTree = "<group>"; };
 		184C37631DD2AFA600EC2F6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184C37701DD2AFE300EC2F6D /* SGImageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGImageButton.swift; sourceTree = "<group>"; };
+		184C37721DD2AFF000EC2F6D /* UIView+SGExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+SGExtension.swift"; sourceTree = "<group>"; };
+		184C37741DD2B01000EC2F6D /* SGSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGSegmentedControl.swift; sourceTree = "<group>"; };
+		184C37761DD2CC5C00EC2F6D /* OneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
+		184C37781DD2CC6300EC2F6D /* TwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
+		184C377A1DD2CC6900EC2F6D /* ThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
+		184C377C1DD2CC6F00EC2F6D /* FourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +99,7 @@
 		184C37351DD2AFA600EC2F6D = {
 			isa = PBXGroup;
 			children = (
+				18426A211DD424B40091C9F2 /* tip1.gif */,
 				184C37401DD2AFA600EC2F6D /* SGSegmentedControlDemo */,
 				184C37551DD2AFA600EC2F6D /* SGSegmentedControlDemoTests */,
 				184C37601DD2AFA600EC2F6D /* SGSegmentedControlDemoUITests */,
@@ -97,12 +120,20 @@
 		184C37401DD2AFA600EC2F6D /* SGSegmentedControlDemo */ = {
 			isa = PBXGroup;
 			children = (
+				184C376F1DD2AFC100EC2F6D /* Class */,
 				184C37411DD2AFA600EC2F6D /* AppDelegate.swift */,
 				184C37431DD2AFA600EC2F6D /* ViewController.swift */,
 				184C37451DD2AFA600EC2F6D /* Main.storyboard */,
 				184C37481DD2AFA600EC2F6D /* Assets.xcassets */,
 				184C374A1DD2AFA600EC2F6D /* LaunchScreen.storyboard */,
 				184C374D1DD2AFA600EC2F6D /* Info.plist */,
+				184C37761DD2CC5C00EC2F6D /* OneViewController.swift */,
+				184C37781DD2CC6300EC2F6D /* TwoViewController.swift */,
+				184C377A1DD2CC6900EC2F6D /* ThreeViewController.swift */,
+				184C377C1DD2CC6F00EC2F6D /* FourViewController.swift */,
+				18426A1B1DD421BA0091C9F2 /* FiveViewController.swift */,
+				18426A1D1DD421C00091C9F2 /* SixViewController.swift */,
+				18426A1F1DD421CB0091C9F2 /* SevenViewController.swift */,
 			);
 			path = SGSegmentedControlDemo;
 			sourceTree = "<group>";
@@ -123,6 +154,16 @@
 				184C37631DD2AFA600EC2F6D /* Info.plist */,
 			);
 			path = SGSegmentedControlDemoUITests;
+			sourceTree = "<group>";
+		};
+		184C376F1DD2AFC100EC2F6D /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				184C37701DD2AFE300EC2F6D /* SGImageButton.swift */,
+				184C37721DD2AFF000EC2F6D /* UIView+SGExtension.swift */,
+				184C37741DD2B01000EC2F6D /* SGSegmentedControl.swift */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +234,7 @@
 				TargetAttributes = {
 					184C373D1DD2AFA600EC2F6D = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 547XRMHWKM;
 					};
 					184C37511DD2AFA600EC2F6D = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -231,6 +273,7 @@
 			files = (
 				184C374C1DD2AFA600EC2F6D /* LaunchScreen.storyboard in Resources */,
 				184C37491DD2AFA600EC2F6D /* Assets.xcassets in Resources */,
+				18426A221DD424B40091C9F2 /* tip1.gif in Resources */,
 				184C37471DD2AFA600EC2F6D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +299,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18426A1C1DD421BA0091C9F2 /* FiveViewController.swift in Sources */,
+				184C37711DD2AFE300EC2F6D /* SGImageButton.swift in Sources */,
 				184C37441DD2AFA600EC2F6D /* ViewController.swift in Sources */,
+				184C37751DD2B01000EC2F6D /* SGSegmentedControl.swift in Sources */,
+				18426A201DD421CB0091C9F2 /* SevenViewController.swift in Sources */,
+				18426A1E1DD421C00091C9F2 /* SixViewController.swift in Sources */,
+				184C377B1DD2CC6900EC2F6D /* ThreeViewController.swift in Sources */,
+				184C37771DD2CC5C00EC2F6D /* OneViewController.swift in Sources */,
+				184C37791DD2CC6300EC2F6D /* TwoViewController.swift in Sources */,
+				184C37731DD2AFF000EC2F6D /* UIView+SGExtension.swift in Sources */,
 				184C37421DD2AFA600EC2F6D /* AppDelegate.swift in Sources */,
+				184C377D1DD2CC6F00EC2F6D /* FourViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +452,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SGSegmentedControlDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = huajian.com.SGSegmentedControlDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +466,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SGSegmentedControlDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = huajian.com.SGSegmentedControlDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +541,7 @@
 				184C37681DD2AFA600EC2F6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		184C37691DD2AFA600EC2F6D /* Build configuration list for PBXNativeTarget "SGSegmentedControlDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +550,7 @@
 				184C376B1DD2AFA600EC2F6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		184C376C1DD2AFA600EC2F6D /* Build configuration list for PBXNativeTarget "SGSegmentedControlDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +559,7 @@
 				184C376E1DD2AFA600EC2F6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
